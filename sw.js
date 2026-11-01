@@ -1,6 +1,6 @@
 // Офлайн-режим: файлы приложения кэшируются при первом открытии.
 // При обновлении приложения поменяйте VERSION, чтобы телефон подхватил новые файлы.
-const VERSION = '6-7-v1';
+const VERSION = 'g-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
